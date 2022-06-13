@@ -81,6 +81,13 @@ footer {
     .banner {
         display: none;
     }
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 0px 0px 0px;
+    }
     
 }
 
@@ -91,6 +98,8 @@ footer {
     flex-direction: column;
     margin: 25px;
 }
+
+
 
 .cards {
     display: flex;
