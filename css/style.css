@@ -24,8 +24,8 @@ nav {
     height: 554px;
     left: 0px;
     top: 0px;
-
 }
+
 
 footer {
     display: flex;
@@ -179,8 +179,10 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        justify-self: right;
         height: 213px;
         width: 858px;
+        
     }
 
 
