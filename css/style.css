@@ -13,10 +13,11 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     width: 425px;
+    background-color: white;
 }
 
 header {
-    background-color: #C4C4C4;
+    background-color: whitesmoke;
     width: 425px;
 }
 
@@ -36,13 +37,11 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #C4C4C4;
+    background-color: whitesmoke;
     width: 425px;
     height: 795px;
     margin-top: 100px;
 }
-
-
 
 .logo {
     display: flex;
@@ -67,14 +66,35 @@ footer {
     height: 82px;
     left: 107px;
     top: 200px;
-    background-color: #C4C4C4;
-    border: 1px solid #000000;
+    background-color: transparent;
+    border:0.5px solid #000000;
     border-radius: 36px;
     margin: 25px;
     margin-left: 110px;
     margin-right: 110px;
     text-decoration: none;
+    box-shadow:inset 0px 1px 3px 0px #ffffff;
+	/* background:linear-gradient(to bottom, #C4C4C4 5%, transparent 100%); */
+	background-color:transparent;
+    cursor: pointer;
+	color:red;
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+	font-weight: bold;
+
 }
+
+.menu:hover {
+    /* background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%); */
+	background-color: transparent;
+    color:red;
+    
+}
+
+/* .menu:active {
+    position:relative;
+	top:1px;
+} */
 
 .banner {
     width: 1280px;
@@ -98,6 +118,14 @@ footer {
     .menu a {
         text-decoration: none;
     }
+
+    .sticky-btn {
+        position: sticky;
+        bottom: 1rem;
+        left: 90%;
+        border-radius: 50%;
+        width: 15%;
+      }
     
 }
 
@@ -224,7 +252,20 @@ footer {
         border: 1px solid #000000;
         border-radius: 36px;
         margin: 25px;
+        text-decoration: none;
+        box-shadow:inset 0px 1px 3px 0px #ffffff;
+        /* background:linear-gradient(to bottom, #C4C4C4 5%, transparent 100%); */
+        background-color:transparent;
+        cursor: pointer;
+        color:red;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
 
+    }
+
+    .menu a {
+        text-decoration: none;
     }
 
     .curiosidades {
@@ -260,4 +301,12 @@ footer {
     .f-item {
         width: 50%;
     }
+
+    .sticky-btn {
+        position: sticky;
+        bottom: 1rem;
+        left: 90%;
+        border-radius: 50%;
+        width: 8%;
+      }
 }
