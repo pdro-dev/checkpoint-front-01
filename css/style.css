@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
 
@@ -69,6 +73,7 @@ footer {
     margin: 25px;
     margin-left: 110px;
     margin-right: 110px;
+    text-decoration: none;
 }
 
 .banner {
@@ -87,6 +92,11 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 25px 0px 0px 0px;
+        
+    }
+
+    .menu a {
+        text-decoration: none;
     }
     
 }
@@ -99,7 +109,9 @@ footer {
     margin: 25px;
 }
 
-
+#curi:target {
+    scroll-margin-top: .8em;
+}
 
 .cards {
     display: flex;
@@ -132,6 +144,10 @@ footer {
     margin: 25px;
     width: 335px;
     height: 534px;
+}
+
+#vid:target {
+    scroll-margin-top: .8em;
 }
 
 .f-item {
