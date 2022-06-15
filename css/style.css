@@ -129,6 +129,7 @@ footer {
         left: 90%;
         border-radius: 50%;
         width: 15%;
+        border: solid 1px #000000;
       }
     
 }
@@ -278,6 +279,7 @@ footer {
 
     .menu:hover {
         box-shadow: 0px 0px 10px 0px #000000;
+        transform: scale(1.5);
     }
 
     .curiosidades {
@@ -300,6 +302,11 @@ footer {
 
     }
 
+    .cards:hover {
+        box-shadow: 0px 0px 10px 0px #000000;
+        transform: scale(1.1);
+    }
+
     h3 {
         font-size: 36px;
         left: 123px;
@@ -308,6 +315,12 @@ footer {
     #vid1 {
         width: 1077px;
         height: 534px;
+
+    }
+
+    #vid1:hover {
+        box-shadow: 0px 0px 10px 0px #000000;
+        transform: scale(1.1);
     }
 
     .f-item {
@@ -320,5 +333,6 @@ footer {
         left: 90%;
         border-radius: 50%;
         width: 8%;
+        border: solid 1px #000000;
       }
 }
