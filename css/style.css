@@ -14,11 +14,14 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 425px;
     background-color: white;
+    /* background-image: url('/img/simb_queijo.jpg'); */
+    
 }
 
 header {
     background-color: whitesmoke;
     width: 425px;
+    background-image: url('/img/simb_queijo.jpg');
 }
 
 nav {
@@ -31,6 +34,10 @@ nav {
     top: 0px;
 }
 
+/* main {
+    
+} */
+
 
 footer {
     display: flex;
@@ -41,6 +48,7 @@ footer {
     width: 425px;
     height: 795px;
     margin-top: 100px;
+    background-image: url('/img/nuvem_palavras.png');
 }
 
 .logo {
@@ -77,10 +85,10 @@ footer {
 	/* background:linear-gradient(to bottom, #C4C4C4 5%, transparent 100%); */
 	background-color:transparent;
     cursor: pointer;
-	color:red;
+	color:black;
 	font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-	font-weight: bold;
+    font-size: larger;
+	font-weight: bolder;
 
 }
 
@@ -88,17 +96,17 @@ footer {
     /* background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%); */
 	background-color: transparent;
     color:red;
+    font-size: x-large;
+    font-weight: bolder;
     
 }
 
-/* .menu:active {
-    position:relative;
-	top:1px;
-} */
+
 
 .banner {
     width: 1280px;
     height: 532px;
+    display: none;
 }
 
 /* for Mobile */
